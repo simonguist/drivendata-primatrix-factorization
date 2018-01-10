@@ -19,7 +19,7 @@ For example, if you want to train on AWS you can choose as AMI `Deep Learning AM
 - Download raw data, submission format and training set labels from [Drivendata](https://www.drivendata.org/competitions/49/deep-learning-camera-trap-animals/data/)
 - Get the trained RGB-I3D ImageNet model from [Deepmind](https://github.com/deepmind/kinetics-i3d)
 - Convert videos from raw data to fixed resolution of 224x224. You can use the `convert_videos` function in `primatrix_dataset_utils.py`
-- Modify hyperparameters and local paths in `train.ipynb` and then run it train the model
+- Modify hyperparameters and local paths in `train.ipynb` and then run it to train the model
 
 ### Sources:
 Carreira, Joao, and Andrew Zisserman. "Quo Vadis, Action Recognition? A New Model and the Kinetics Dataset." arXiv preprint arXiv:1705.07750 (2017). Code and trained models: https://github.com/deepmind/kinetics-i3d
