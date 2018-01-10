@@ -1,8 +1,8 @@
 # Training I3D models on the Chimp&See dataset
 
-Competition entry (5th place) for the DrivenData Pri-matrix Factoriation competition. Based on Inflated 3D ConvNet (I3D) models
+Competition entry (5th place) for the DrivenData Pri-matrix Factoriation competition. Based on Inflated 3D ConvNet (I3D) models.
 
-Find out more about the competition [here](https://www.drivendata.org/competitions/49/deep-learning-camera-trap-animals/)
+Find out more about the competition [here](https://www.drivendata.org/competitions/49/deep-learning-camera-trap-animals/).
 
 
 ### Main dependencies:
@@ -19,3 +19,6 @@ For example, if you want to train on AWS you can choose as AMI `Deep Learning AM
 - Download raw data, submission format and training set labels from [Drivendata](https://www.drivendata.org/competitions/49/deep-learning-camera-trap-animals/data/)
 - Convert videos from raw data to fixed resolution of 224x224. You can use the `convert_videos` function in `primatrix_dataset_utils.py`
 - Set hyperparameters and run `train.ipynb` to train the model
+
+### Sources:
+Carreira, Joao, and Andrew Zisserman. "Quo Vadis, Action Recognition? A New Model and the Kinetics Dataset." arXiv preprint arXiv:1705.07750 (2017). Code and trained models: https://github.com/deepmind/kinetics-i3d
